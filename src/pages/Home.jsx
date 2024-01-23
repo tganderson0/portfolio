@@ -58,11 +58,11 @@ const Home = () => {
           {line4.length > 0 && <pre data-prefix=">" className="text-success whitespace-pre-wrap"><code>{line4}</code></pre>}
           {line5.length > 0 && <pre data-prefix=">" className="whitespace-pre-wrap"><code>{line5}</code></pre>}
           {line5.length === finishedLines[5].length &&
-          <div class="flex flex-row justify-center">
-            <a class="btn btn-primary m-1 mt-2" href='/about'>About Me</a>
-            <a class="btn btn-primary m-1 mt-2" href='/projects'>Projects</a>
-            <a class="btn btn-primary m-1 mt-2" href='https://github.com/tganderson0'><i class="fa-brands fa-github"></i></a>
-            <a class="btn btn-primary m-1 mt-2" href='https://www.linkedin.com/in/taylor-anderson-16887022b/'><i class="fa-brands fa-linkedin"></i></a>
+          <div className="flex flex-row justify-center">
+            <a className="btn btn-primary m-1 mt-2" href='/about'>About Me</a>
+            <a className="btn btn-primary m-1 mt-2" href='/projects'>Projects</a>
+            <a className="btn btn-primary m-1 mt-2" href='https://github.com/tganderson0'><i className="fa-brands fa-github"></i></a>
+            <a className="btn btn-primary m-1 mt-2" href='https://www.linkedin.com/in/taylor-anderson-16887022b/'><i className="fa-brands fa-linkedin"></i></a>
           </div>
           }
         </div>
