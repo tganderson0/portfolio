@@ -6,7 +6,7 @@ const AboutMe = () => {
         <figure><img src="/me.jpg" alt="A photo of myself" /></figure>
         <div className="card-body">
           <h2 className="card-title">About Me</h2>
-          <p>I'm a Master's student at Utah State University, currently working on a thesis focusing on COmputer Graphics. Other parts of my research focus on ground robotics, specifically with intelligent path planning.</p>
+          <p>I'm a Master's student at Utah State University, currently working on a thesis focusing on Computer Graphics. Other parts of my research focus on ground robotics, specifically with intelligent path planning.</p>
           <p>I have a strong background in working in many programming lanuguages, most notably C++, Python, C# and JavaScript.</p>
           <p>When I'm not working on research or personal projects, I love working out, drawing, and playing video games.</p>
         </div>
