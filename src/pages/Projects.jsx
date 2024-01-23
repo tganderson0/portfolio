@@ -4,7 +4,7 @@ const Projects = () => {
     <div className="p-2 flex flex-col h-screen items-center">
       
       <div className="card w-full lg:w-1/3 bg-base-100 shadow-xl my-2">
-        <figure><img src="/crowengine.png" alt="Photo of crow engine" /></figure>
+        <figure><img src="/crowengine.jpg" alt="Photo of crow engine" /></figure>
         <div className="card-body">
           <h2 className="card-title">Crow Engine</h2>
           <p>This is the renderer that I am working on for my Master's Thesis, which originally started as just a project for fun. The engine is written using Vulkan, and uses a PBR workflow.</p>
