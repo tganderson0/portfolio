@@ -3,7 +3,7 @@ const AboutMe = () => {
   return (
     <div className="p-2 flex flex-col h-screen items-center">
       <div className="card w-full lg:w-1/3 bg-base-100 shadow-xl">
-        <figure><img src="/me.jpeg" alt="A photo of myself" /></figure>
+        <figure><img src="/me.jpg" alt="A photo of myself" /></figure>
         <div className="card-body">
           <h2 className="card-title">About Me</h2>
           <p>I'm a Master's student at Utah State University, currently working on a thesis focusing on COmputer Graphics. Other parts of my research focus on ground robotics, specifically with intelligent path planning.</p>
